@@ -1,7 +1,8 @@
 PS1=$'\e[0;31m$ \e[0m'
 #wal -r
 cat /home/jacob/.cache/wal/sequences
-alias rr="ranger"
+alias ]#="ranger"
+alias s]#="sudo ranger ./"
 alias srr="sudo ranger"
 alias x="exit"
 alias sync="sudo pacman -Syu"
