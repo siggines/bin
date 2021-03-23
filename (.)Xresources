@@ -1,9 +1,9 @@
 ! urxvt
-URxvt*font:  xft:Fira Mono:pixelsize=14:antialias=true:hinting:true
+URxvt*font:  xft:Iosevka:pixelsize=20:antialias=true:hinting:true
 
 URxvt.depth:                32
-URxvt.geometry:             165x35
-URxvt.transparent:          false
+URxvt.geometry:             80x20
+URxvt.transparent:          true
 URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
 ! URxvt.visualBell:           true
@@ -11,11 +11,11 @@ URxvt.loginShell:           true
 URxvt.saveLines:            50
 URxvt.internalBorder:       0
 URxvt.lineSpace:            8
-URxvt.title:                zsh
+URxvt.title:                shell
 
 ! Fonts
-URxvt.allow_bold:           false
-URxvt.font-size.zoomfont: xft:Fira Mono:pixelsize=12
+URxvt.allow_bold:	true
+URxvt.font-size.zoomfont: xft:Fira Mono:pixelsize=16
 URxvt.font-size.step: 2
 URxvt.keysym.C-Up:   perl:font-size:increase
 URxvt.keysym.C-Down: perl:font-size:decrease
@@ -47,4 +47,3 @@ urxvt*internalBorder: 5
 URxvt*dynamicColors: on
 URxvt*keysym.Home: \033[1~
 URxvt*keysym.End: \033[4~
-
