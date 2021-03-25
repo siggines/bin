@@ -1,13 +1,9 @@
-PS1=$'\e[0;31m$ \e[0m'
+PS1=$'\e[0;33m$ %~ \e[0m'
 #wal -r
-cat /home/jacob/.cache/wal/sequences
-alias ]#="ranger"
-alias []#="sudo ranger"
+#cat /home/jacob/.cache/wal/sequences
+alias c="ranger"
+alias sc="sudo ranger ./"
 alias x="exit"
-alias sync="sudo pacman -Syu"
-alias add="sudo pacman -S"
-alias search="sudo pacman -Ss"
-alias remove="sudo pacman -Rns"
 alias dl="youtube-dl"
 alias mp3="youtube-dl -x --audio-format mp3"
 alias mp3playlist="youtube-dl -x --audio-format mp3 --yes-playlist"
@@ -17,3 +13,5 @@ alias star="sdcv"
 alias sd="sdcv"
 alias vp8="-vcodec vp8 -target webm"
 alias wal="wal -i"
+## /~/ Programes
+alias gpw="/home/jacob/Documents/bin/gorilla.bin"
