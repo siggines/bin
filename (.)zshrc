@@ -14,4 +14,4 @@ alias sd="sdcv"
 alias vp8="-vcodec vp8 -target webm"
 alias wal="wal -i"
 ## /~/ Programes
-alias gpw="/home/jacob/Documents/bin/gorilla.bin"
+alias gpw="/home/jacob/Documents/bin/gorilla/gorilla.bin"
