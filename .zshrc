@@ -19,6 +19,9 @@ alias star="sdcv"
 alias sd="sdcv"
 alias vp8="-vcodec vp8 -target webm"
 alias wal="wal -i"
+alias doc="cd ~/Documents"
+alias root="cd /"
+alias mu="cd ~/Music/mu-21 && mpg123 -z *.mp3"
 
 ## Programes
 alias gpw="/home/jacob/Documents/bin/gorilla/gorilla.bin"
