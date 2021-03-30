@@ -1,6 +1,11 @@
+## Prompt
 PS1=$'\e[0;33m$ %~ \e[0m'
-#wal -r
-#cat /home/jacob/.cache/wal/sequences
+
+## pywal
+	#wal -r
+	#cat /home/jacob/.cache/wal/sequences
+
+## aliases
 alias c="ranger"
 alias sc="sudo ranger ./"
 alias x="exit"
@@ -14,5 +19,8 @@ alias star="sdcv"
 alias sd="sdcv"
 alias vp8="-vcodec vp8 -target webm"
 alias wal="wal -i"
-## /~/ Programes
+
+## Programes
 alias gpw="/home/jacob/Documents/bin/gorilla/gorilla.bin"
+export EDITOR=/usr/bin/nvim
+export PATH="$HOME/.local/bin:$PATH"
